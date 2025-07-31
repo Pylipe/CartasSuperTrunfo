@@ -17,7 +17,7 @@ int main() {
     printf("Digite o Código da sua carta: \n");
     scanf("%s", &Códigos);
     printf("Digite o Nome da Cidade \n");
-    scanf(" %[^\n]s", &Cidade);
+    scanf(" %[^\n]", &Cidade);
     printf("Digite a População: \n");
     scanf("%d", &População);
     printf("Digite a Área: \n");
