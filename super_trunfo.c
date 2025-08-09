@@ -34,8 +34,31 @@
     scanf("%d", &pontos1);
 
     printf("\n");
-    
 
+    // Entrada de dados da Carta 2
+    printf("Cadastro da Carta 2:\n");
+    printf("Digite o Estado (A a H): ");
+    scanf(" %c", &estado2);
+
+    printf("Digite o Código da Carta (ex: A01): ");
+    scanf("%s", codigo2);
+
+    printf("Digite o Nome da Cidade: ");
+    scanf("%s", cidade2);
+
+    printf("Digite a População: ");
+    scanf("%d", &populacao2);
+
+    printf("Digite a Área (em km²): ");
+    scanf("%f", &area2);
+
+    printf("Digite o PIB (em bilhões de reais): ");
+    scanf("%f", &pib1);
+
+    printf("Digite o Número de Pontos Turísticos: ");
+    scanf("%d", &pontos2);
+    
+    
 
 
 
