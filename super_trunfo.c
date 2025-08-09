@@ -5,9 +5,11 @@
     printf ("***Cadastro de cartas - Super Trunfo***\n");
 
     //Declaração de variáveis
-    char estado1, estado2, codigo1[3], codigo2[3], cidade1, cidade2;
+    char estado1, estado2, codigo1[3], codigo2[3], cidade1[50], cidade2[50];
     int populacao1, populacao2, pontos1, pontos2;
     float pib1, pib2, area1, area2;
+    float densidade1 = pupulacao1 / area1;
+    
 
     //Solicitação de dados
     // Entrada de dados da Carta 1
@@ -19,7 +21,8 @@
     scanf("%s", codigo1);
 
     printf("Digite o Nome da Cidade: ");
-    scanf("%s", cidade1);
+    getchar(); // limpa o buffer
+    scanf("%[^\n]", cidade1);
 
     printf("Digite a População: ");
     scanf("%d", &populacao1);
@@ -40,11 +43,12 @@
     printf("Digite o Estado (A a H): ");
     scanf(" %c", &estado2);
 
-    printf("Digite o Código da Carta (ex: A01): ");
+    printf("Digite o Código da Carta (ex: B03): ");
     scanf("%s", codigo2);
 
     printf("Digite o Nome da Cidade: ");
-    scanf("%s", cidade2);
+    getchar(); // limpa o buffer
+    scanf("%[^\n]", cidade2);
 
     printf("Digite a População: ");
     scanf("%d", &populacao2);
@@ -53,7 +57,7 @@
     scanf("%f", &area2);
 
     printf("Digite o PIB (em bilhões de reais): ");
-    scanf("%f", &pib1);
+    scanf("%f", &pib2);
 
     printf("Digite o Número de Pontos Turísticos: ");
     scanf("%d", &pontos2);
@@ -78,6 +82,10 @@
     printf("Área: %.2f km²\n", area2);
     printf("PIB: %.2f bilhões de reais\n", pib2);
     printf("Número de Pontos Turísticos: %d\n", pontos2);
+
+    //Calculo de densidade populacional
+    printf("A desidade populacional é da carta 1 é: ");
+    media = 
 
     return 0;
 
