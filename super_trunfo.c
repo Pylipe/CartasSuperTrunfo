@@ -8,8 +8,7 @@
     char estado1, estado2, codigo1[3], codigo2[3], cidade1[50], cidade2[50];
     int populacao1, populacao2, pontos1, pontos2;
     float pib1, pib2, area1, area2;
-    float densidade1 = pupulacao1 / area1;
-    
+
 
     //Solicitação de dados
     // Entrada de dados da Carta 1
@@ -84,9 +83,27 @@
     printf("Número de Pontos Turísticos: %d\n", pontos2);
 
     //Calculo de densidade populacional
-    printf("A desidade populacional é da carta 1 é: ");
-    media = 
+    //carta 1
+    printf("A densidade populacional é da carta 1 é: ");
+    float densidade1 = populacao1 / area1;
+    printf("Densidade da carta 2: %.2f\n", densidade1);
 
+    printf("O PIB per capta da carta 1 é: ");
+    float pibceno1 = pib1 / populacao1;
+    printf("PIB per capta da carta 1: %.2f\n", pibceno1);
+
+    //Calculo de densidade populacional
+    //carta 2
+    printf("A densidade populacional é da carta 2 é: ");
+    float densidade2 = populacao2 / area2;
+    printf("Densidade da carta 2: %.2f\n", densidade2);
+
+    printf("O PIB per capta da carta 2 é: ");
+    float pibceno2 = pib2 / populacao2;
+    printf("PIB per capta da carta 2: %.2f\n", pibceno2);
+    
+
+    
     return 0;
 
 
