@@ -21,7 +21,7 @@
 
     printf("Digite o Nome da Cidade: ");
     getchar(); // limpa o buffer
-    scanf("%[^\n]", cidade1);
+    scanf(" %[^\n]", cidade1);
 
     printf("Digite a População: ");
     scanf("%d", &populacao1);
@@ -47,7 +47,7 @@
 
     printf("Digite o Nome da Cidade: ");
     getchar(); // limpa o buffer
-    scanf("%[^\n]", cidade2);
+    scanf(" %[^\n]", cidade2);
 
     printf("Digite a População: ");
     scanf("%d", &populacao2);
@@ -105,36 +105,4 @@
 
     
     return 0;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
