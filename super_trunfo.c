@@ -85,21 +85,21 @@
     //Calculo de densidade populacional
     //carta 1
     printf("A densidade populacional é da carta 1 é: ");
-    float densidade1 = populacao1 / area1;
+    float densidade1 = (float) populacao1 / area1;
     printf("Densidade da carta 2: %.2f\n", densidade1);
 
     printf("O PIB per capta da carta 1 é: ");
-    float pibceno1 = pib1 / populacao1;
+    float pibceno1 = (float) pib1 / populacao1;
     printf("PIB per capta da carta 1: %.2f\n", pibceno1);
 
     //Calculo de densidade populacional
     //carta 2
     printf("A densidade populacional é da carta 2 é: ");
-    float densidade2 = populacao2 / area2;
+    float densidade2 = (float) populacao2 / area2;
     printf("Densidade da carta 2: %.2f\n", densidade2);
 
     printf("O PIB per capta da carta 2 é: ");
-    float pibceno2 = pib2 / populacao2;
+    float pibceno2 = (float) pib2 / populacao2;
     printf("PIB per capta da carta 2: %.2f\n", pibceno2);
     
 
