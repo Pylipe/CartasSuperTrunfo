@@ -42,7 +42,7 @@
     printf("Digite o Estado (A a H): ");
     scanf(" %c", &estado2);
 
-    printf("Digite o Código da Carta (ex: B03): ");
+    printf("Digite o Código da Carta (ex: B02): ");
     scanf("%s", codigo2);
 
     printf("Digite o Nome da Cidade: ");
